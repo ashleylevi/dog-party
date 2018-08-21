@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 40px;
+}
+
+header {
+  background-color: #93E0E5;
+  margin-bottom: 0px;
+  /** why did i put this ? **/
+/*  width: 100%;
+*/  height: 70px;
+}
+
+ul {
+  float: right;
+/*  width: 200px;
+*/  color: white;
+  margin: 30px;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+.dog-icon { 
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  margin-left: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.dog-1 {
+  border-color: #408DA7;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section#one {
+  background-image: url(images/park.jpg);
+  margin-top: 0px;
+  background-size: cover;
+  height: 440px;
+}
+
+section#one p {
+  font-size: 12px;
+  background-color: white;
+  border-color: #408DA7;
+  border-style: solid;
+  border-width: 3px;
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+h5 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dog {
+  width: 150px;
+  height: 150px;
+  border-color: #408DA7;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 50%;
+  display: block;
+  /** change images to block, then you cen center with margin auto **/
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.column p {
+  text-align: center;
+  margin: 10px;
+  font-size: 13px;
+}
+
+p.dog-label {
+  text-align: center;
+  font-size: 13px;
+  background-color: white;
+  border-color: #408DA7;
+  border-style: solid;
+  border-width: 3px;
+  padding: 5px;
+  margin: 0 auto;
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+footer {
+  clear: both;
+  background-color: #408DA7;
+  overflow: auto;
+
+}
+
+.footer li.a {
+   /** iline vs inline-block? **/
+  display: inline;
+/*  text-align: center;
+*/}
+
+.footer ul {
+  /** why? **/
+  /*Isn't centered when you minimize screen*/
+  float: none;
+  /*position: relative;*/
+  text-align: center;
+  /*left: 34%;*/
+
+}
+
+.footer p {
+  font-size: 13px;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer a {
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  /** why did this allow me to center link? **/
+  display: block;
+  margin-bottom: 15px;
+}
+
